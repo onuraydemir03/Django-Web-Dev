@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Basics of HTML</title>
+  </head>
+  <body>
+
+    <!-- This is the html comment tag. -->
+  <h1>This is a heading 1.</h1>
+  <hr>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <hr>
+
+  <h3>Html Lists.</h3>
+  <h5>Ordered List</h5>
+  <ol>
+    <li>List Elemenent 1</li>
+    <li>List Elemenent 2</li>
+    <li>List Elemenent 3</li>
+    <li>List Elemenent 4</li>
+  </ol>
+  <hr>
+
+  <h5>UnOrdered List</h5>
+  <ul>
+    <li>List Elemenent 1</li>
+    <li>List Elemenent 2</li>
+    <li>List Elemenent 3</li>
+    <li>List Elemenent 4</li>
+  </ul>
+  <hr>
+
+
+  <h3>Divs and Spans</h3>
+
+  <!-- divs should be group and style elements together. -->
+  <!-- spans is inline grouping tag. -->
+  <div class="group-one">
+    <h5>Group 1</h5>
+    <p>THis paragraph and <span>h5 should be in a</span> container.</p>
+  </div>
+  <hr>
+
+  <h3>Attributes.</h3>
+  <h5>Adding an source image.</h5>
+  <img src="./django.png" alt="Django-png">
+  <a href="./second-page.html">Go to second page.</a>
+  <hr>
+
+  <h2><a href="assesment-1.html">Assesment 1</a></h2>
+  <hr>
+
+  <h3>Tables</h3>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Header Col 1</th>
+        <th>Header Col 2</th>
+        <th>Header Col 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Col 1</td>
+        <td>Col 2</td>
+        <td>Col 3</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>Tables Quiz</h4>
+  <table border="1">
+    <thead>
+      <th>Country Name</th>
+      <th>Country Flag</th>
+      <th>GDP (millions of USD)</th>
+    </thead>
+
+    <tr>
+      <td>United States</td>
+      <td>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png" alt="USA-Flag" width="200" height="200">
+      </td>
+      <td>18,561,930</td>
+    </tr>
+    <tr>
+      <td>India</td>
+      <td>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/India_flag_300.png" alt="Indian-Flag" width="200" height="200">
+      </td>
+      <td>2,250,990</td>
+    </tr>
+    <tr>
+      <td>United Kingdom</td>
+      <td>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Square_Flag_of_the_United_Kingdom.svg/300px-Square_Flag_of_the_United_Kingdom.svg.png" alt="UK-Flag" width="200" height="200">
+      </td>
+      <td>2,649,890</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>Forms</h3>
+  <form class="" action="index.html" method="post">
+    <label for="useremail">E Mail:</label>
+    <input id="useremail" type="email" name="" placeholder="..@..com" required>
+
+    <label for="userpassword">Password:</label>
+    <input id="userpassword" type="password" name="" value="" required>
+
+    <p>Inside / Outside US ?</p>
+    <label for="inus">Inside</label>
+    <input id="inus" type="radio" name="location" value="1">
+    <label for="outus">Outside</label>
+    <input id="outus" type="radio" name="location" value="0">
+
+    <p>How was your service ?</p>
+    <select class="" name="stars">
+      <option value="great">3</option>
+      <option value="ok">2</option>
+      <option value="bad">1</option>
+    </select>
+
+    <p>Any other feedback ?</p>
+    <textarea name="mytext" rows="8" cols="80"></textarea>
+    <br>
+    <input type="submit" name="submit" value="Submit">
+
+  </form>
+  <hr>
+
+  <h2><a href="assesment-2.html">Assesment 2</a></h2>
+  <hr>
+
+
+
+  </body>
+</html>
