@@ -1,0 +1,38 @@
+div{
+  color: red;
+}
+
+/* Classes */
+.first-div{
+  color: blue;
+}
+
+.second-div{
+  color: green;
+}
+
+/* IDs */
+#single-out-p{
+  background-color: green;
+  text-decoration: line-through;
+}
+
+/* Select everything except IDs */
+/* *{
+  color: black;
+} */
+
+/* UL next to H3 selector */
+h3 + ul {
+  border: 2px dashed purple;
+}
+
+/* Anchor tags inside a list selector */
+li a {
+  color: red;
+}
+
+/* Filter and manipulate selector with attributes */
+li a[href="www.facebook.com"]{
+  color: blue;
+}

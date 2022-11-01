@@ -1,0 +1,14 @@
+/* CSS Spesificity - Hieararchy*/
+li{
+  color: red;
+}
+
+/* Class more spesific than general element  */
+.topitems{
+  color: blue;
+}
+
+/* ID more spesific than Class */
+#two{
+  color: gray;
+}

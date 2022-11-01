@@ -1,0 +1,25 @@
+/* Comments of css */
+
+/* selected_tag
+{
+  property: value;
+} */
+
+h1{
+  /* h1 text color */
+  color: blue;
+}
+
+li{
+  /* This changes all the elements inside list */
+  color: rgb(0, 255, 0);
+}
+
+p{
+  color: #0895a8;
+}
+
+h4{
+  /* RGBA, A : Alpha parameter how dark / transparent this color is*/
+  color: rgba(255, 0, 0, 0.5);
+}
